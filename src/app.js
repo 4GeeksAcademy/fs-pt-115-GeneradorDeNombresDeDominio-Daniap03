@@ -7,5 +7,22 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  const pronoun = ['the', 'our'];
+  const adj = ['great', 'big'];
+  const noun = ['jogger', 'racoon']
+  const extensiones = ['.com','.net','.us','.io']
+
+pronoun.map((pronoun) =>{
+  adj.map((adj)=>{
+    noun.map((noun)=>{
+      extensiones.map((extensiones)=>{
+        console.log(`${pronoun}${adj}${noun}${extensiones}`)
+      })
+        
+    })
+
+  })
+
+})
+
 };
